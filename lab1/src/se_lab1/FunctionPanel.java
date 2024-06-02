@@ -13,7 +13,7 @@ class FunctionPanel extends JPanel {
 
     // 构造方法
     public FunctionPanel() {
-        this.setBackground(Color.BLUE);  // 设置背景颜色为白色
+        this.setBackground(Color.WHITE);  // 设置背景颜色为白色
         JPanel tab1 = new QueryBridgePanel();  // 创建查询桥接词面板
         this.tp.addTab(this.tabNames[0], (Icon)null, tab1);  // 添加查询桥接词选项卡
         JPanel tab2 = new NewTextPanel();  // 创建生成新文本面板
